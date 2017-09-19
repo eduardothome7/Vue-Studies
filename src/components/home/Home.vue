@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Painel from './shared/painel/Painel.vue';
-import ImagemResponsiva from './shared/imagem-responsiva/ImagemResponsiva.vue';
+import Painel from '../shared/painel/Painel.vue';
+import ImagemResponsiva from '../shared/imagem-responsiva/ImagemResponsiva.vue';
 
 export default {
   components: {
@@ -51,6 +51,10 @@ export default {
 </script>
 
 <style>
+  
+  h1 {
+    text-align: center;
+  }
 
   .picture_list {
     list-style: none;

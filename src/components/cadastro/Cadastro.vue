@@ -1,7 +1,5 @@
 <template>
-  <h2>Cadastro</h2>
-
-  <input type="search" class="filtro" @input="filtro= $event.target.value">
+  <h1>Cadastro</h1>
 </template>
 
 <script>
@@ -11,5 +9,7 @@ export default {
 </script>
 
 <style scoped>
-  
+  h1 {
+  	text-align: center;
+  }
 </style>
