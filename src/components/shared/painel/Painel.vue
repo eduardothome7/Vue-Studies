@@ -29,6 +29,10 @@ export default {
   .painel-titulo {
     text-align: center;
   }
+  
+  .painel-conteudo {
+    overflow: hidden;
+  }
 
   .painel-fade-enter, .painel-fade-leave-active {
     opacity: 0;
